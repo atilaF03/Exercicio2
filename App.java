@@ -22,8 +22,9 @@ public class App {
         System.out.println("Mora perto da vítima?"); 
         System.out.println("1- sim  0- não ");
         encontrarSujeito = sc.nextInt();
-        verificador(encontrarSujeito, verificador);
-
+        if (encontrarSujeito == 1) {
+            verificador++;
+        }
         System.out.println("========================================");
         System.out.println(" ja trabalhaou com a vitima?");
         System.out.println("1- sim  0- não ");
@@ -62,6 +63,6 @@ public class App {
     }
 
     
-    
+
 
 }
